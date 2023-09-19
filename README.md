@@ -1,1 +1,10 @@
 # StaticAnalyzersHandle
+
+RemoveComment.py去除源码注释
+report_handle.py 处理三个静态分析工具的报告，生成包含bug信息表的中间文件
+func_judge.py 扫描去注释后的源码，提取出所有函数，生成函数信息表的中间文件
+unbuged_result.py 分析中间文件输出无bug函数的json
+bug_vote_result.py 分析中间文件输出有bug函数的json， 投票的bug可以继续自定义
+几个文件都需要指定文件路径
+
+具体信息下班有空再补充
